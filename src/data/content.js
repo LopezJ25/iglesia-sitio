@@ -24,7 +24,7 @@ export const leaders = [
   { name: 'Elisa Cruz', role: 'Ministerio de Alabanza', bio: 'Dirigiendo los momentos de adoración y la formación del equipo de música.' },
   { name: 'Julio Alonzo', role: 'Ministerio Juvenil', bio: 'Formando la próxima generación con propósito, identidad y fe.' },
   { name: 'Ana Rivas', role: 'Ministerio de Mujeres', bio: 'Formando a mujres de Valores con identidad y fe.' },
-  { name: 'Hombre', role: 'Ministerio de Hombres', bio: 'Formando a hombres de valores con identidad y fe.' },
+  { name: 'Angel Sosa', role: 'Ministerio de Hombres', bio: 'Formando a hombres de valores con identidad y fe.' },
 ];
 
 export const devocionales = [
