@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { useLocation, Link } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
 import { CHURCH_NAME } from '../data/content.js';
-import { ultimaActualizacion, politicaPrivacidad, terminosCondiciones } from '../data/policies.js';
+import { ultimaActualizacion, politicaPrivacidad, terminosCondiciones } from '../data/politicas.js';
 
 const tabs = [
   { id: 'privacidad', label: 'Privacidad', data: politicaPrivacidad },
