@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
 import { CHURCH_NAME, historiaCompleta } from '../data/content.js';
-import { renderConNegritas } from '../utils/text.jsx';
+import { renderConNegritas } from '../Utils/text.jsx';
 
 export default function HistoriaCompleta() {
   return (
