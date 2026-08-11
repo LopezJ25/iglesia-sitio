@@ -1,3 +1,5 @@
+import { Type } from "lucide-react";
+
 export const CHURCH_NAME = 'Fuente De Esperanza'; 
 export const WHATSAPP_NUMBER = '+18096642585'; 
 export const WHATSAPP_MESSAGE = 'Hola, me gustaría más información sobre la iglesia';
@@ -13,9 +15,34 @@ export const nosotros = {
 };
 
 export const hitosHistoria = [
-  { year: 'Los inicios', text: 'Un pequeño grupo de familias comenzó a reunirse con un mismo propósito: buscar a Dios juntos.' },
-  { year: 'Creciendo en fe', text: 'La congregación creció, y con ella la necesidad de un espacio propio para adorar y servir.' },
-  { year: 'Un hogar para la comunidad', text: 'Hoy somos una familia que sirve, enseña y camina junta, abriendo las puertas a todo el que busca a Dios.' },
+  { year: 'Los inicios', text: 'La historia de la Comunidad Cristiana Fuente de Esperanza tiene sus orígenes en el año 1989, cuando surgió la visión de establecer una obra evangelística en el sector Los Guandules, en Santiago de los Caballeros. La iniciativa nació mediante el esfuerzo de la evangelista Carmen Guzmán, quien, movida por el deseo de llevar el mensaje del Evangelio a la comunidad, comenzó junto a otros creyentes la labor de levantar un campo blanco perteneciente a las Asambleas de Dios de la República Dominicana.'},
+  { year: 'Creciendo en fe', text:'Con el paso del tiempo, el número de creyentes aumentó y surgió la necesidad de contar con un lugar más adecuado para las reuniones. Gracias al esfuerzo y sacrificio de los hermanos, se logró alquilar una pequeña casa de madera ubicada en la comunidad, la cual se convirtió en el primer local de congregación formal.' },
+  { year: 'Un hogar para la comunidad', text: 'Actualmente, la Comunidad Cristiana Fuente de Esperanza continúa desarrollando su labor evangelística y ministerial, fortaleciendo la vida espiritual de sus miembros y sirviendo a la comunidad bajo la dirección de Dios y los principios doctrinales de las Asambleas de Dios.' },
+];
+
+export const historiaCompleta = [
+   { type: 'parrafo', texto: 'La historia de la **Comunidad Cristiana Fuente de Esperanza** tiene sus orígenes en el año 1989, cuando surgió la visión de establecer una obra evangelística en el sector Los Guandules, en Santiago de los Caballeros. La iniciativa nació mediante el esfuerzo de la evangelista Carmen Guzmán, quien, movida por el deseo de llevar el mensaje del Evangelio a la comunidad, comenzó junto a otros creyentes la labor de levantar un campo blanco perteneciente a las Asambleas de Dios de la República Dominicana. ',},
+
+   {type: 'parrafo', texto: 'Los primeros cultos se realizaban al aire libre, en un terreno vacío de la comunidad, sin disponer de las comodidades básicas ni de un local permanente. A pesar de las limitaciones materiales y de la oposición que enfrentaron en sus inicios, las reuniones se caracterizaban por una profunda atmósfera espiritual, manifestándose conversiones, testimonios de sanidad y experiencias de transformación en la vida de muchas personas.'},
+
+   {type: 'parrafo', texto: 'Entre las primeras conversiones destacaron las de Darío Díaz, Miguel Vásquez, Leonida Rodríguez, Jorge Marte y sus hijas Ruth y Fania, entre otras familias que comenzaron a integrarse a la naciente congregación. Estas personas fueron instruidas de acuerdo con la doctrina de las Asambleas de Dios y formaron parte del crecimiento inicial de la obra.'},
+
+   {type: 'parrafo', texto:  'Con el paso del tiempo, el número de creyentes aumentó y surgió la necesidad de contar con un lugar más adecuado para las reuniones. Gracias al esfuerzo y sacrificio de los hermanos, se logró alquilar una pequeña casa de madera ubicada en la comunidad, la cual se convirtió en el primer local de congregación formal.'},
+
+    {type: 'lista', texto:  'A lo largo de los años, la iglesia ha sido dirigida por diferentes líderes y pastores que han contribuido al desarrollo espiritual y organizacional de la congregación. La cronología pastoral registra las siguientes etapas de liderazgo:',
+      items: ['Evangelistas Carmen Toribio y Luis José Guzmán.',
+              'Roselio Rodríguez (Chelo) y Minerva de Rodríguez.',
+              'Pastora Águeda de Guzmán y evangelista Jerónimo Guzmán.',
+              'Pastor José Ramón Cruz y Anny de Cruz Pérez.',
+              'Pastora Anny Pérez Santiago (actual).'],
+    },
+    {type: 'parrafo',  texto: 'Actualmente, la Comunidad Cristiana Fuente de Esperanza continúa desarrollando su labor evangelística y ministerial, fortaleciendo la vida espiritual de sus miembros y sirviendo a la comunidad bajo la dirección de Dios y los principios doctrinales de las Asambleas de Dios.'},
+
+    //  {type: 'parrafo',  texto:'**Propósito institucional**'},
+    //  '',
+    // { type: 'parrafo', texto: 'El propósito de la Comunidad Cristiana Fuente de Esperanza es conducir a las personas a una relación transformadora con Jesucristo, proclamando fielmente la Palabra de Dios, formando discípulos y siendo una comunidad donde cada persona encuentre esperanza, fe, amor, restauración y propósito para su vida. Este propósito constituye la razón de ser de la iglesia y orienta todas sus acciones ministeriales, evangelísticas, formativas y comunitarias, procurando que cada persona experimente el amor de Dios y alcance su desarrollo espiritual integral.'},
+  
+  
 ];
 
 export const leaders = [

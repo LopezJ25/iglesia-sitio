@@ -25,7 +25,7 @@ export default function Hero() {
           luz, familia y propósito
         </h1>
         <p className="mt-6 text-lg md:text-xl max-w-2xl mx-auto text-muted">
-          Somos {CHURCH_NAME}, una comunidad que conducir a las personas a una relación transformadora con Jesucristo, proclamando fielmente la Palabra de Dios, formando discípulos y siendo una comunidad donde cada persona encuentre esperanza, fe, amor, restauración y propósito para su vida.
+          Somos {CHURCH_NAME}, una Iglesia Cristiana Evangélica afiliada al Concilio de las Asambleas de Dios de la República Dominicana, comprometida con la predicación y enseñanza de la Palabra de Dios, la formación de discípulos y el servicio integral a la comunidad.
         </p>
         
         <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center">

@@ -1,4 +1,5 @@
 import { hitosHistoria } from '../data/content.js';
+import { Link } from 'react-router-dom';
 
 export default function Historia() {
   return (
@@ -19,14 +20,23 @@ export default function Historia() {
             />
           </svg>
           <div className="space-y-14">
-            {hitosHistoria.map((h, i) => (
-              <div key={i} className="relative">
-                <span className="absolute -left-[38px] top-1 w-3.5 h-3.5 rounded-full border-2 bg-cream border-rust" />
-                <h3 className="font-subheading italic text-xl font-semibold mb-1 text-rust">{h.year}</h3>
-                <p className="leading-relaxed max-w-2xl text-muted">{h.text}</p>
-              </div>
-            ))}
-          </div>
+              {hitosHistoria.map((h, i) => (
+                <div key={i} className="relative">
+                  <span className="absolute -left-[38px] top-1 w-3.5 h-3.5 rounded-full border-2 bg-cream border-rust" />
+                  <h3 className="font-subheading italic text-xl font-semibold mb-1 text-rust">{h.year}</h3>
+                  <p className="leading-relaxed max-w-2xl text-muted">{h.text}</p>
+                </div>
+              ))}
+            </div>
+
+            <div className="mt-12 text-center">
+              <Link
+                to="/historia"
+                className="inline-block px-7 py-3 rounded-full font-semibold font-accent border-2 border-rust text-rust hover:bg-rust hover:text-white transition-colors"
+              >
+                Leer la historia completa
+              </Link>
+            </div>
         </div>
       </div>
     </section>
