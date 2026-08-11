@@ -12,5 +12,7 @@ export function renderConNegritas(texto) {
       return <strong key={i}>{parte.slice(2, -2)}</strong>;
     }
     return parte;
+
   });
+  
 }
