@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home.jsx';
-import Politicas from './pages/Politicas.jsx';
+import Politicas from './pages/politicas.jsx';
 import HistoriaCompleta from './pages/HistoriaCompleta.jsx';
 
 export default function App() {
