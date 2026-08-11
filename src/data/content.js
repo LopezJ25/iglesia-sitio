@@ -38,11 +38,11 @@ export const historiaCompleta = [
     },
     {type: 'parrafo',  texto: 'Actualmente, la Comunidad Cristiana Fuente de Esperanza continúa desarrollando su labor evangelística y ministerial, fortaleciendo la vida espiritual de sus miembros y sirviendo a la comunidad bajo la dirección de Dios y los principios doctrinales de las Asambleas de Dios.'},
 
-    //  {type: 'parrafo',  texto:'**Propósito institucional**'},
+    //  {type: 'parrafo',  texto:'**Propósito **'},
     //  '',
     // { type: 'parrafo', texto: 'El propósito de la Comunidad Cristiana Fuente de Esperanza es conducir a las personas a una relación transformadora con Jesucristo, proclamando fielmente la Palabra de Dios, formando discípulos y siendo una comunidad donde cada persona encuentre esperanza, fe, amor, restauración y propósito para su vida. Este propósito constituye la razón de ser de la iglesia y orienta todas sus acciones ministeriales, evangelísticas, formativas y comunitarias, procurando que cada persona experimente el amor de Dios y alcance su desarrollo espiritual integral.'},
   
-  
+  {type: 'parrafo',  texto:'****'}
 ];
 
 export const leaders = [
